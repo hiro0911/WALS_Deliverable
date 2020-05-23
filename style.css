@@ -132,7 +132,7 @@ main p{
 }
 .strength h2{
 	padding: 10px 0;
-	font-size: 20px
+	font-size: 20px;
 	color: #000000;
 }
 .strength p{
@@ -142,4 +142,48 @@ main p{
 }
 .strength:nth-child(2){
 	padding: 0 10px;
+}
+.profile{
+	text-align: center;
+	margin: 0 auto;
+	width: 1024px;
+	background-color: #ECEFF1
+}
+.profile h1{
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 8px;
+}
+.profile h1::after{
+	content: "";
+	display: block;
+	margin: 0 auto;
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+}
+.profile-text{
+	padding: 30px;
+	font-size: 16px;
+	color: #000000;
+}
+.profile-container{
+	display: flex;
+	padding-bottom: 90px;
+}
+.my-image{
+	width: 512px
+}
+.my-image img{
+	border-radius: 50%;
+}
+.profile-contents{
+	width: 512px; 
+	text-align: left;
+}
+.profile-contents h2{
+	padding-bottom: 5px
+}
+.my-name{
+	padding-bottom: 20px;
 }
