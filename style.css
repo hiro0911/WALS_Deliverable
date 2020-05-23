@@ -125,4 +125,21 @@ main p{
 }
 .container{
 	display: flex;
+	padding-bottom: 90px;
+}
+.strength .fab{
+	font-size: 60px;
+}
+.strength h2{
+	padding: 10px 0;
+	font-size: 20px
+	color: #000000;
+}
+.strength p{
+	text-align: left;
+	font-size: 16px;
+	color: #000000;
+}
+.strength:nth-child(2){
+	padding: 0 10px;
 }
