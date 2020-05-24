@@ -263,6 +263,7 @@ footer{
     	padding: 5px 0;
     	font-size: 40px;
     	color: white;
+    	display: block !important;
     }
     main{
     	height: 650px;
