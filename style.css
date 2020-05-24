@@ -35,6 +35,9 @@ nav ul li a{
 	color: #FAFAFA;
 	text-decoration: none;
 }
+.fa-bars{
+	display: none;
+}
 main{
 	background-image: url(img/mv.png);
 	background-size: cover;
@@ -72,6 +75,7 @@ main p{
 }
 .portfolio-text{
 	padding: 30px 0;
+	font-size: 16px;
 }
 .portfolio-image{
 	display: flex;
@@ -239,4 +243,95 @@ footer{
 	background-color: #EC715F;
 	line-height: 60px;
 	text-align: center;
+}
+
+@media screen and (max-width:768px) {  
+    header{
+    	height: 50px;
+    }
+    .header-contents{
+    	width: 90%;
+    }
+    .header-logo{
+    	height: 50px;
+    }
+    nav{
+    	display: none;
+    }
+    .fa-bars{
+    	display: inline;
+    	float: right;
+    	padding: 5px 0;
+    	font-size: 40px;
+    	color: white;
+    }
+    main{
+    	height: 650px;
+    	background-image: url('img/code.png')
+    }
+    main h1{
+    	font-size: 40px;
+    }
+    main p{
+    	font-size: 18px;
+    }
+    .portfolio{
+    	width: 90%;
+    }
+    .portfolio-image img:nth-child(odd){
+		display: none;
+    }
+    .portfolio-image img:nth-child(even){
+		display: block;
+		padding: 0;
+		margin: 0 auto;
+    }
+    .portfolio-image img:nth-child(4){
+    	margin: 10px auto;
+    }
+    .portfolio-image{
+    	display: block;
+    }
+    .feature{
+    	width: 90%;
+    }
+    .container{
+    	display: block;
+    }
+    .strength{
+    	margin: 0 auto;
+    }
+    .strength2{
+    	margin: 10px auto;
+    }
+    .profile{
+    	width: 90%;
+    }
+    .profile-container{
+    	display: block;
+    }
+    .my-image{
+    	margin: 0 auto;
+    }
+    .profile-contents{
+    	display: block;
+    	margin: 0 auto;
+    	text-align: center;
+    }
+    .my-name{
+    	margin-top: 20px;
+    }
+    .contact{
+    	width: 90%;
+    }
+    .contact-container{
+    	display: block;
+    	text-align: center;
+    }
+    .contact-contents{
+    	margin: 0 auto;
+    }
+    .sns-box{
+    	margin-top:20px; 
+    }
 }
