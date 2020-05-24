@@ -35,11 +35,11 @@ nav ul li a{
 	color: #FAFAFA;
 	text-decoration: none;
 }
-.fa-bars{
-	display: none;
+.fas{
+	display: none !important;
 }
 main{
-	background-image: url(img/mv.png);
+	background-image: url('img/mv.png');
 	background-size: cover;
 	height: 650px;
 	color: #FAFAFA;
@@ -259,7 +259,6 @@ footer{
     	display: none;
     }
     .fa-bars{
-    	display: inline;
     	float: right;
     	padding: 5px 0;
     	font-size: 40px;
